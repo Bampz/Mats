@@ -1,0 +1,171 @@
+/* 
+Theme Name: matsTheme
+Author: Hampus Mårtensson
+Version 1.0
+*/
+
+body{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color #333;
+}
+
+p {
+	line-height 1.65em;
+	color: blue;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: lightgrey;
+}
+
+/* General Layout*/
+div.container{
+	max-width: 920px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20 px;
+}
+
+article.post {
+	border-bottom: 2px dotted grey;
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+
+/* Header */
+
+header{
+	height: 250px;
+}
+
+.site-header{
+	border-bottom: 2px solid #999;
+}
+
+/* Footer*/
+.site-footer{
+	margin-top: 30 px;
+	border-top: 2px solid #999;
+}
+
+/* Navigation Menus*/
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+	align: center;
+	background-color: #B2B2B2; 
+	opacity: 0.85;
+}
+
+.site-nav:before, site-nav ul:after{ content: ""; display: table; }
+.ste-nav ul.after{ clear: both;}
+.site-nav ul {*zoom: 1; }
+
+.site-nav ul li {
+	margin-left: 20px;
+	list-style: none;
+	align: center;
+	float: left;
+}
+
+/* Site Header Menu*/
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited{
+	display: block;
+	padding: 10px 18px;
+	border 1px solid #BBB;
+	border-bottom: none;
+}
+
+.site-header nav ul li a:hover{
+	color: #C3BABA;
+}
+
+/* css-bulk
+h1{
+	color:black;
+	text-align:center;
+	size:22px;	
+}
+
+b1{
+	color:rgb(100, 100, 100);
+	text-align:center;
+	size:6px;	
+}
+
+
+img {
+	opacity:1.0;
+}
+
+img:hover {
+	opacity:0.4;
+}
+
+#container{
+	width:80%;
+	height:100%;
+	border: 1px solid rgb(80, 80, 80);
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgb(255, 255, 255);
+	-webkit-box-shadow: 10px 0px 53px 0px rgba(0,0,0,0.65);
+	-moz-box-shadow: 10px 0px 53px 0px rgba(0,0,0,0.65);
+	box-shadow: 10px 0px 53px 0px rgba(0,0,0,0.65);
+	opacity: 0.6;
+	filter: alpha(opacity=80);
+}
+
+#main{
+	width:100%;
+	height:335px;
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgb(255, 255, 255);
+}
+
+#header{
+	width:100%;
+	height:450px;
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgb(255, 255, 255);
+	
+}
+
+#header-content{
+	width:100%;
+	height:10px;
+	%border:3px solid black;% 	
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#line{
+	width:100%;
+	height:5px;
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgb(255, 255, 255);
+}
+
+#foot{
+	width:80%;
+	height:1%;
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+*/
