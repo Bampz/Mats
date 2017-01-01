@@ -1,0 +1,2 @@
+#ignore wp-config because we have passwords there, and github is open source
+wp-config.php
